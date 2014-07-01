@@ -16,7 +16,7 @@ type User struct{
 }
 
 func setupDB() *sql.DB{
-	db, err := sql.Open("mysql", "aqfjgj73vsnmddoi:acavceal34mvrqy3bry17bsain3gkw16@tcp(192.168.3.241:53653)/demo_db?charset=utf8")
+	db, err := sql.Open("mysql", "aa2b96tqgh7j0oau:aneiu7rnfevsh7khwvczuwgbiroa86u4@tcp(192.168.3.241:6509)/demo_db?charset=utf8")
 	PanicIf(err)
 	return db
 }
